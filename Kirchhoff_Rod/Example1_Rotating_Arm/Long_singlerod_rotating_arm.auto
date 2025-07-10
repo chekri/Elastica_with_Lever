@@ -1,0 +1,7 @@
+clean()
+O=run(e='Singlerod',c='length')
+C=run(O('UZ1'),c='loadarm') #10
+CC=run(C('UZ1'),c='load') #3,4
+D=run(CC('UZ1'),c='armangle',DS=0.1,NMX=500) #20
+save(D,'data')
+clean()

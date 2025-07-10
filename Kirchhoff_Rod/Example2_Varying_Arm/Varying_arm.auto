@@ -1,0 +1,27 @@
+clean()
+O=run(e='Singlerod',c='length')
+C=run(O('UZ1'),c='loadarm') #10
+CC=run(C('UZ1'),c='load') #3,4
+D=run(CC('UZ1'),c='armangle',DS=0.05) #20
+
+E=D
+
+E=run(D('UZ1'), c='loadarm', DS=-0.01,UZSTOP={7:1.51},NMX=400)
+save(E,'data1')
+E=run(D('UZ2'), c='loadarm', DS=-0.01,UZSTOP={7:1.51},NMX=400)
+save(E,'data2')
+E=run(D('UZ3'), c='loadarm', DS=0.01,UZSTOP={7:1.51},NMX=400)
+save(E,'data3')
+E=run(D('UZ4'), c='loadarm', DS=0.01,UZSTOP={7:1.51},NMX=400)
+save(E,'data4')
+E=run(D('UZ5'), c='loadarm', DS=-0.01,UZSTOP={7:1.51},NMX=400)
+save(E,'data5')
+E=run(D('UZ6'), c='loadarm', DS=-0.01,UZSTOP={7:1.51},NMX=400)
+save(E,'data6')
+E=run(D('UZ7'), c='loadarm', DS=0.01,UZSTOP={7:1.51},NMX=400)
+save(E,'data7')
+E=run(D('UZ8'), c='loadarm', DS=-0.01,UZSTOP={7:1.51},NMX=400)
+save(E,'data8')
+E=run(D('UZ9'), c='loadarm', DS=-0.01,UZSTOP={7:1.51},NMX=400)
+save(E,'data9')
+clean()

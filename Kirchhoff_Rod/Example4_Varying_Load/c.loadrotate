@@ -1,0 +1,14 @@
+NDIM=   14, IPS =   4, IRS =   0, ILP =   1
+ICP =  [9]
+NTST=  20, NCOL=   2, IAD =   3, ISP =   2, ISW = 1, IPLT= 0, NBC= 14, NINT= 0
+NMX=  9000, NPR=  1, MXBF=  10, IID =   0, ITMX= 8, ITNW= 5, NWTN= 3, JAC= 0
+EPSL= 1e-07, EPSU = 1e-07, EPSS =0.0001
+DS  =  0.08, DSMIN= 0.001, DSMAX=   0.2, IADS=   1
+NPAR = 9, THL =  {}, THU =  {}
+#UZR={9:[6.28]}
+UZR={9:[17.278]} # 15= 6.545,60=7.33, 90= 7.853, 120=8.377, 9.424, 17.278
+#UZR={9:[7.85]}
+#UZR={9:[8.37]}
+#UZR={9:[2.094]}
+#UZSTOP={9:25.01}
+
