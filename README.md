@@ -17,8 +17,11 @@ Kirchhoff Rod – A 14-dimensional model representing the full Kirchhoff rod equ
 Despite the difference in complexity, both models yield the same physical results, serving as a validation of the simplified approach.
 
 Navigate to any of the subfolders, say for Example by typing 
+
 `cd Elastica/Example1_Rotating_Arm` 
+
 in the terminal  and run the appropriate auto file by running the command
+
 `auto auto.filename`. 
 
 ### Reference
