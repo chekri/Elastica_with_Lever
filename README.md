@@ -28,9 +28,9 @@ If everything goes well, the successful computation will be indicated in the ter
 
 After the run, the solutions are stored in a s.solution_filename file. This file can be processed to extract several features from the solutions, such as:
 
-.Bifurcation diagrams
+`- Bifurcation diagrams
 
-.Equilibrium configurations
+`- Equilibrium configurations
 ### Reference
 
 Please cite or refer to the associated article when using or referencing this repository:
