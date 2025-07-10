@@ -1,5 +1,5 @@
 # Instructions
-This repository contains the numerical continuation codes used in the article. The numerical continuation is performed using AUTO-07p, a powerful and easy-to-install software tool for continuation and bifurcation problems in ordinary differential equations (ODEs). A copy of this software package along with the instructions is provided.
+This repository contains the numerical continuation codes used in the article (Dhanakoti, Siva Prasad Chakri. “Stability analysis through folds: An end-loaded elastic with a lever arm.” (2025)) . The numerical continuation is performed using AUTO-07p, a powerful and easy-to-install software tool for continuation and bifurcation problems in ordinary differential equations (ODEs). A copy of this software package along with the instructions is provided.
 
 ## AUTO-07p Configuration
 
