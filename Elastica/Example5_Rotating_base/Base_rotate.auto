@@ -1,0 +1,10 @@
+clean()
+O=run(e='Elastica',c='arm')
+B=run(O('UZ2'),c='load',DS=0.1) #1,2 
+C=run(B('UZ1'),c='arm_angle',DS=-0.1) 
+D1=run(C('UZ3'),c='base_angle') #1,2,3 
+D2=run(C('UZ3'),c='base_angle',DS=-0.1) #1,2,3 
+save(D1,"Example5_a")
+save(D2,"Example5_b")
+clean()
+

@@ -1,0 +1,9 @@
+clean()
+O=run(e='Elastica',c='arm')
+B=run(O('UZ1'),c='load',NPR=20) #1,2 
+C1=run(B('UZ1'),DS=-0.1,c='arm_angle') #1,2
+C2=run(B('UZ1'),DS=0.1,c='arm_angle') #1,2
+save(C1,"Example1_a")
+save(C2,"Example1_b")
+clean()
+
