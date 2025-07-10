@@ -31,7 +31,15 @@ After the run, the solutions are stored in a `s.solution_filename` file. This fi
 - Bifurcation diagrams
 
 - Equilibrium configurations
+In many examples, auto scripts for performing the continuation in both forward and backward directions are provided. As a result, we obtain two solution files with extensions "_a" and "_b".
 
+## Auto-07p files
+
+For performing numerical continuation using Auto-07p, we require two files
+
+- Input file (`filename.f90`): This file contains the description of the system, such as ODEs, BVPs, Boundary Conditions, Initial guess and connection with the paramters 
+
+- constants file (`c.filename`): This file contains the parameters that control the numerical run of the continuation such as mesh size, number of collocation points, the parameter along which continuation to be run, specification of points at which solutions can be obtained, specification of points at which continuation should be halted and so on.
   
   
 ### Reference
