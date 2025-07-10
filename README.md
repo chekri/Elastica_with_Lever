@@ -1,10 +1,12 @@
 # Instructions
-This repository contains the continuation codes used in the accompanying article. The numerical continuation is performed using AUTO-07p, a powerful and easy-to-install software tool for continuation and bifurcation problems in ordinary differential equations (ODEs). A copy of this software package along with the instructions is provided.
+This repository contains the numerical continuation codes used in the article. The numerical continuation is performed using AUTO-07p, a powerful and easy-to-install software tool for continuation and bifurcation problems in ordinary differential equations (ODEs). A copy of this software package along with the instructions is provided.
 
 ## AUTO-07p Configuration
 
 AUTO-07p is an easy-to-use software package. To install this software package, unzip the provided "auto-07p-master.zip file" and navigate to its parent folder. Then configure the files by running './configure' in the terminal. After successful configuration, execute 'make all'. Then, add the path of the bin folder to your system path file by appending the line "path_to_auto/bin" to your bash file. The installation can be verified by running 'auto' in the terminal. Once installed, the codes can be run easily through auto scripts (auto.filename). To run these scripts, run auto auto.filename in the terminal window. These scripts make use of input files (`filename.f90`) and constants files (`c.constants`) where the parameters running the continuation can be tuned. The variables in c.constants files and script files can be adjusted as per the requirement. Once, the computation is complete, the solution files are written in a "s.filename" file. These files are analyzed and plotted using Python tools provided in the respective folders. Ensure that the necessary Python dependencies, including numpy and matplotlib, are installed.
 
+
+## 
 
 ### Reference
 
