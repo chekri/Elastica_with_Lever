@@ -8,11 +8,11 @@ AUTO-07p is an easy-to-use software package. To install this software package, u
 
 ## Instructions on using the contination codes
 
-The repository includes two example folders, namely, Elastica and Kirchhoff Rod. 
+The repository includes two example folders, namely, Elastica and Kirchhoff_Rod. 
 
 Elastica – A simplified planar elastic rod model with lower dimensionality.
 
-Kirchhoff Rod – A 14-dimensional model representing the full Kirchhoff rod equations. It can be employed for solving more complex problems
+Kirchhoff_Rod – A 14-dimensional model representing the full Kirchhoff rod equations. It can be employed for solving more complex problems
 
 Despite the difference in complexity, both models yield the same physical results, serving as a validation of the simplified approach.
 
