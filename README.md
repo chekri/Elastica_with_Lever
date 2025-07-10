@@ -38,10 +38,11 @@ In many examples, auto scripts for performing the continuation in both forward a
 To perform numerical continuation using AUTO-07p, each example requires the following two files:
 
 - Input file (filename.f90): This Fortran file defines the system under investigation. It includes:
-  -The governing equations (ODEs or boundary value problems)
-  -Boundary conditions 
-  -Initial guesses
-  -Parameter definitions and their role in the system
+  - The governing equations (ODEs or boundary value problems)
+  - Boundary conditions 
+  - Initial guesses
+  - Parameter definitions and their role in the system
+  
 - Constants file (c.filename):This configuration file specifies parameters that control the numerical continuation, such as:
   - Mesh size and number of collocation points
   - The continuation parameter and its range
