@@ -51,7 +51,7 @@ To perform numerical continuation using AUTO-07p, each example requires the foll
   - Stopping criteria for the continuation process
     
   
-These files together allow AUTO-07p to perform the desired continuation analysis for each example case. By appropriately controlling the parameters in the `c.constants` file, a wide variety of cases can be solved. In the provided example codes, each folder contains several constants files, such as (`c.arm`, `c.load`, `c.load_arm`, etc.,). These files correspond to different continuation parameters. 
+These files together allow AUTO-07p to perform the desired continuation analysis for each example case. By appropriately controlling the parameters in the `c.constants` file, a wide variety of cases can be solved. In the provided example codes, each folder contains several constants files, such as (`c.arm`, `c.load`, `c.load_arm`, etc.,). These files correspond to different continuation parameters.  
 
 ### Reference
 
