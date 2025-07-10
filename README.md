@@ -26,11 +26,13 @@ in the terminal and run the appropriate auto file (`filename.auto`)  by running 
 
 If everything goes well, the successful computation will be indicated in the terminal.
 
-After the run, the solutions are stored in a s.solution_filename file. This file can be processed to extract several features from the solutions, such as:
+After the run, the solutions are stored in a `s.solution_filename` file. This file can be processed to extract several features from the solutions, such as:
 
 - Bifurcation diagrams
 
 - Equilibrium configurations
+
+  
   
 ### Reference
 
