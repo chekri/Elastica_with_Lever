@@ -24,8 +24,13 @@ in the terminal and run the appropriate auto file (`filename.auto`)  by running 
 
 `auto Arm_rotate.auto` 
 
-If everything goes well, the successful computation can be noticed in the terminal. After the run, the solutions are stored in a `s.solution_filename` file. This file can be processed and several features from the solutions such as bifurcation plots and configrations can be extracted. The appropriate post-processing on the solutions is performed using Python3 and the asscoated files and notebooks are also included. 
+If everything goes well, the successful computation will be indicated in the terminal.
 
+After the run, the solutions are stored in a s.solution_filename file. This file can be processed to extract several features from the solutions, such as:
+
+.Bifurcation diagrams
+
+.Equilibrium configurations
 ### Reference
 
 Please cite or refer to the associated article when using or referencing this repository:
