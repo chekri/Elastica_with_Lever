@@ -40,7 +40,7 @@ To perform numerical continuation using AUTO-07p, each example requires the foll
 - Input file (filename.f90): This Fortran file defines the system under investigation. It includes:
   - The governing equations (ODEs or boundary value problems)
   - Boundary conditions 
-  - Initial guesses
+  - Initial solution
   - Parameter definitions and their role in the system
   
 - Constants file (c.filename):This configuration file specifies parameters that control the numerical continuation, such as:
@@ -48,6 +48,7 @@ To perform numerical continuation using AUTO-07p, each example requires the foll
   - The continuation parameter and its range
   - Points where solutions should be saved
   - Stopping criteria for the continuation process
+  - 
 These files together allow AUTO-07p to perform the desired continuation analysis for each example case
 
 
