@@ -48,8 +48,8 @@ To perform numerical continuation using AUTO-07p, each example requires the foll
   - The continuation parameter and its range
   - Points where solutions should be saved
   - Stopping criteria for the continuation process
-  - 
-These files together allow AUTO-07p to perform the desired continuation analysis for each example case
+  
+These files together allow AUTO-07p to perform the desired continuation analysis for each example case. By appropritely controlling the parameters in the `c.constants` file, a wide variety of problems can be solved. For example, 
 
 
 ### Reference
