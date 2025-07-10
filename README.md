@@ -31,7 +31,8 @@ After the run, the solutions are stored in a `s.solution_filename` file. This fi
 - Bifurcation diagrams
 
 - Equilibrium configurations
-In many examples, auto scripts for performing the continuation in both forward and backward directions are provided. As a result, we obtain two solution files with extensions "_a" and "_b".
+  
+In many provided examples, auto scripts for performing the continuation in both forward and backward directions are provided. As a result, we obtain two solution files with extensions "_a" and "_b".
 
 ## Auto-07p files
 
@@ -48,9 +49,9 @@ To perform numerical continuation using AUTO-07p, each example requires the foll
   - The continuation parameter and its range
   - Points where solutions should be saved
   - Stopping criteria for the continuation process
+    
   
-These files together allow AUTO-07p to perform the desired continuation analysis for each example case. By appropritely controlling the parameters in the `c.constants` file, a wide variety of problems can be solved. For example, 
-
+These files together allow AUTO-07p to perform the desired continuation analysis for each example case. By appropriately controlling the parameters in the `c.constants` file, a wide variety of cases can be solved. In the provided example codes, each folder contains several constants files, such as (`c.arm`, `c.load`, `c.load_arm`, etc.,). These files correspond to different continuation parameters. 
 
 ### Reference
 
