@@ -1,5 +1,5 @@
-# Instructions for Using Codes and Tools in this Folder
-These are the codes used in the examples of my PhD thesis. These programs are written in AUTO-07p and Python3. The examples are performed using the AUTO-07p software package. 
+# Instructions
+This repository contains the continuation codes used in the accompanying article. The numerical continuation is performed using AUTO-07p, a powerful and easy-to-install software tool for continuation and bifurcation problems in ordinary differential equations (ODEs). A copy of this software package along with the instructions is provided.
 
 ## AUTO-07p Configuration
 
