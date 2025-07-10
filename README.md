@@ -8,6 +8,8 @@ AUTO-07p is an easy-to-use software package. To install this software package, u
 
 ### Reference
 
-Please cite or refer to the associated article when using or referencing this repository: 
+Please cite or refer to the associated article when using or referencing this repository:
+Dhanakoti, Siva Prasad Chakri. “Stability analysis through folds: An end-loaded elastic with a lever arm.” (2025). https://doi.org/10.48550/arXiv.2501.04729
+
 
 
